@@ -40,7 +40,7 @@ def calculate_rfm_scores(rfm_data):
 
 
 
-def prepare_for_clustering(rfm_data):
+def prepare_clustering(rfm_data):
     """Prepare RFM data for clustering"""
     if rfm_data is None:
         print("No RFM data available for clustering preparation.")
